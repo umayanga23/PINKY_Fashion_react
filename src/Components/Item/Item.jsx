@@ -14,7 +14,7 @@ export const Item = (props) => {
                 {props.new_price} LKR
             </div>
             <div className="item-price-old">
-                {props.old_price}LKR
+                {props.old_price} LKR
             </div>
         </div>
     </div>

@@ -1,10 +1,8 @@
-import React from 'react';
 import star_dull_icon from '../Assets/Frontend_Assets/star_dull_icon.png';
 import star_icon from '../Assets/Frontend_Assets/star_icon.png';
 import './ProductDisplay.css';
 
-
-export const ProductDisplay = (props) => {
+const ProductDisplay = (props) => {
     const {product} = props;
   return (
     <div className='productdisplay'>
@@ -60,3 +58,4 @@ export const ProductDisplay = (props) => {
     </div>
   )
 }
+export default ProductDisplay;
