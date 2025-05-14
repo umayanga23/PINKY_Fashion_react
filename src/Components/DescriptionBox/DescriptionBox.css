@@ -4,9 +4,11 @@
 }
 .descriptionbox-navigator{
     display: flex;
+    margin-left: 50px;
 
 }
 .descriptionbox-nav-box{
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,6 +23,8 @@
     color: #555;
 }
 .descriptionbox-description{
+    margin-left: 50px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     gap: 25px;
