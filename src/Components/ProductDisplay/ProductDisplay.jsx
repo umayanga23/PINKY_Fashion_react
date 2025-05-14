@@ -30,14 +30,15 @@ const ProductDisplay = (props) => {
             </div>
             <div className="productdisplay-right-prices">
                 <div className="productdisplay-right-price-old">
-                    ${product.old_price}
+                    LKR{product.old_price}
                 </div>
                 <div className="productdisplay-right-price-new">
-                    ${product.new_price}
+                    LKR{product.new_price}
                 </div>
             </div>
             <div className="productdisplay-right-description">
-                A lightweight, usually knitted, pullover garment for the upper body, typically having long sleeves, a round neck, and no opening at the front.
+                A lightweight, usually knitted, pullover garment
+                 for the upper body, typically having long sleeves, a round neck, and no opening at the front.
 
             </div>
 
