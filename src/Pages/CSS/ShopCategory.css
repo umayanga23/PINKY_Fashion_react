@@ -2,7 +2,7 @@
 .shopcategory-banner{
     display: block;
     margin: 30px auto;
-    width: 82%;
+    width: 86%;
 
 
 }
@@ -22,10 +22,11 @@
 
 }
 .shopcategory-products{
-    margin: 20px 170px;
+    margin: 20px 50px;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
-    row-gap: 80px;
+    row-gap: 70px;
+    gap: 20px;
 }
 .shopcategory-loadmore{
     display: flex;
