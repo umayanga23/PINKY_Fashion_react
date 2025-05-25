@@ -49,7 +49,7 @@ const CartItems = () => {
             <div>
                 <div className='cartitems-total-item'>
                   <p>Subtatal</p> 
-                   <p>LKR {getTotalCartAmount()}</p>
+                  <p>LKR {getTotalCartAmount()}</p>
                 </div>
                 <hr />
                 <div className='cartitems-total-item'>
@@ -63,8 +63,9 @@ const CartItems = () => {
                 </div>
             </div>
             <button>PROCEED TO CHECKOUT</button>
-        </div>
-        <div className="cartitems-promocode">
+          
+          </div>
+          <div className="cartitems-promocode">
             <p>If you have promo code, Enter it herre</p>
             <div className="cartitems-promobox">
                 <input type="text" placeholder='promo code.' />
